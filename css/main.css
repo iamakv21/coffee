@@ -40,7 +40,7 @@ html {
   scroll-padding-top: 9rem;
 }
 
-/* html::-webkit-scrollbar {
+html::-webkit-scrollbar {
   width: 0.8rem;
 }
 
@@ -49,8 +49,8 @@ html::-webkit-scrollbar-track {
 }
 html::-webkit-scrollbar-thumb {
   background: #ffffff;
-  border-radius: 5rem;;
-} */
+  border-radius: 5rem;
+}
 
 body {
   background-color: var(--bg-color);
@@ -158,7 +158,7 @@ h4 {
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  background: url(/images/home3.jpg) no-repeat;
+  background: url(../images/home3.jpg) no-repeat;
   background-size: cover;
   background-position: center;
 }
@@ -653,6 +653,12 @@ h4 {
   html {
     font-size: 50%;
   }
+
+  P {
+    font-weight: 300;
+    font-size: 1.9rem;
+  }
+
   .menu-col {
     width: 88%;
     box-shadow: rgb(255 255 255 / 35%) 0px 1px 4px;

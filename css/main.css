@@ -648,6 +648,9 @@ h4 {
   .right-contact {
     width: 100%;
   }
+  .footer-info {
+    margin-bottom: 2rem;
+  }
 }
 
 @media (max-width: 445px) {

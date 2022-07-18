@@ -649,9 +649,21 @@ h4 {
     width: 100%;
   }
 
-  .footer-info p {
+  .right-contact input {
+    width: 100%;
+    margin: 3rem 0;
+    font-size: 1.6rem;
+    padding: 1rem 1rem;
+  }
+
+  .footer-info p,
+  .footer a {
     margin-bottom: 2rem;
     font-size: 1.8rem;
+  }
+
+  .footer-links a {
+    font-size: 3rem;
   }
 }
 
@@ -696,9 +708,5 @@ h4 {
   }
   p {
     font-size: 1prem;
-  }
-
-  .footer a {
-    font-size: 1.9rem;
   }
 }

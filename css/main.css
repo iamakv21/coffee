@@ -552,6 +552,15 @@ h4 {
     font-size: 1.6rem;
   }
 
+  h3 {
+    font-size: 2.9rem;
+  }
+
+  h4 {
+    font-size: 2.4rem;
+    font-weight: 400;
+  }
+
   /* Responsive header */
 
   .nav-icons #menu-btn {
@@ -633,6 +642,17 @@ h4 {
     gap: 3rem;
     justify-content: flex-start;
   }
+  .blog-info {
+    padding: 1.9rem 1.3rem;
+  }
+
+  .blog-info a {
+    font-size: 2rem;
+    margin: 1rem 0;
+  }
+  .blog-info p {
+    margin: 2rem 0;
+  }
   .blog-col {
     width: 47%;
     box-shadow: rgb(255 255 255 / 35%) 0px 1px 4px;
@@ -705,16 +725,5 @@ h4 {
 
   .about h2 {
     font-size: 3.5rem;
-  }
-  h3 {
-    font-size: 2.5rem;
-  }
-
-  h4 {
-    font-size: 1.9rem;
-    font-weight: 400;
-  }
-  p {
-    font-size: 1prem;
   }
 }

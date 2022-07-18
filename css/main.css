@@ -647,21 +647,7 @@ h4 {
   .right-contact {
     width: 100%;
   }
-  h2 {
-    font-size: 3.5rem;
-  }
-  h3 {
-    font-size: 2.5rem;
-  }
-
-  h4 {
-    font-size: 1.9rem;
-    font-weight: 400;
-  }
-
-  .footer a {
-    font-size: 1.9rem;
-  }
+ 
 }
 
 @media (max-width: 445px) {
@@ -691,4 +677,19 @@ h4 {
     width: 97%;
     box-shadow: rgb(255 255 255 / 35%) 0px 1px 4px;
   }
+    .about h2 {
+      font-size: 3.5rem;
+    }
+    h3 {
+      font-size: 2.5rem;
+    }
+  
+    h4 {
+      font-size: 1.9rem;
+      font-weight: 400;
+    }
+  
+    .footer a {
+      font-size: 1.9rem;
+    } }
 }

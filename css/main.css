@@ -649,13 +649,6 @@ h4 {
     width: 100%;
   }
 
-  .right-contact input {
-    width: 100%;
-    margin: 3rem 0;
-    font-size: 1.6rem;
-    padding: 1rem 1rem;
-  }
-
   .footer-info p,
   .footer a {
     margin-bottom: 2rem;
@@ -697,6 +690,13 @@ h4 {
 
   .about h2 {
     font-size: 3.5rem;
+  }
+
+  .right-contact input {
+    width: 100%;
+    margin: 3rem 0;
+    font-size: 1.9rem;
+    padding: 1.5rem 1rem;
   }
   h3 {
     font-size: 2.5rem;

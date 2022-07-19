@@ -408,7 +408,7 @@ h4 {
 .blog-info h4 {
   font-size: 1.1rem;
   color: var(--main-color);
-  margin-bottom: 0.7rem;
+  margin: 0.7rem 0;
 }
 
 /* Contact Section */
@@ -641,9 +641,14 @@ h4 {
     margin: 2rem 0;
   }
   .blog-col {
-    width: 47%;
+    width: 49%;
     box-shadow: rgb(255 255 255 / 35%) 0px 1px 4px;
   }
+
+  .blog-img {
+    height: auto;
+  }
+
   .contact-row {
     display: flex;
     flex-direction: column;
@@ -692,10 +697,6 @@ h4 {
     font-size: 1.9rem;
   }
 
-  .blog-img {
-    height: auto;
-  }
-
   .menu-col {
     width: 88%;
     box-shadow: rgb(255 255 255 / 35%) 0px 1px 4px;
@@ -710,7 +711,7 @@ h4 {
   }
 
   .blog-col {
-    width: 97%;
+    width: 99%;
     box-shadow: rgb(255 255 255 / 35%) 0px 1px 4px;
   }
 

@@ -568,6 +568,10 @@ h4 {
     transition: all 0.4s ease-in-out;
   }
 
+  .header .nav-icons div {
+    font-size: 2.2rem;
+  }
+
   .header .navbar a {
     display: block;
     margin: 1rem;
@@ -617,6 +621,10 @@ h4 {
     width: 47%;
     box-shadow: rgb(255 255 255 / 35%) 0px 1px 4px;
   }
+  .menu-col h4 {
+    max-width: 100%;
+    font-size: 2rem;
+  }
   .review-row {
     justify-content: flex-start;
     gap: 3rem;
@@ -636,6 +644,7 @@ h4 {
   .blog-info a {
     font-size: 2.2rem;
     margin: 1rem 0;
+    font-weight: 800;
   }
   .blog-info p {
     margin: 2rem 0;
